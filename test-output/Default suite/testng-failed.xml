@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Testcases.TC_Plan_Multiple_Cities_Vacation_TestCases">
+        <methods>
+          <include name="test_to_verify_Plan_Your_Multiple_City_Vacation"/>
+          <include name="open_browser_and_Url"/>
+        </methods>
+      </class> <!-- Testcases.TC_Plan_Multiple_Cities_Vacation_TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

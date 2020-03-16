@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Testcases.TC_Plan_Single_City_Vacation_Testcases">
+        <methods>
+          <include name="test_to_verify_Plan_Your_Single_City_Vacation"/>
+          <include name="open_browser_and_Url"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- Testcases.TC_Plan_Single_City_Vacation_Testcases -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
